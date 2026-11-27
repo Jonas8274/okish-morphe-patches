@@ -1,0 +1,1213 @@
+<div align="center">
+
+# 🧩 okish-morphe-patches
+
+**A personal collection of Morphe patches for favorite Android apps and games.**
+
+[![Release](https://img.shields.io/github/v/release/byehi98/okish-morphe-patches?style=for-the-badge&logo=github&color=5865F2)](https://github.com/byehi98/okish-morphe-patches/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/byehi98/okish-morphe-patches/release.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=Release)](https://github.com/byehi98/okish-morphe-patches/actions/workflows/release.yml)
+[![License: GPL v3](https://img.shields.io/github/license/byehi98/okish-morphe-patches?style=for-the-badge&color=forestgreen)](LICENSE)
+[![Add to Morphe](https://img.shields.io/badge/Morphe-Add%20Source-8A2BE2?style=for-the-badge&logo=android&logoColor=white)](https://morphe.software/add-source?github=byehi98/okish-morphe-patches)
+
+[About](#-about) • [How to Use](#-how-to-use) • [Patches List](#-patches-list) • [App Requests](#-app-requests) • [Contributing](#-contributing) • [Building](#%EF%B8%8F-building-from-source) • [License](#-license)
+
+</div>
+
+---
+
+## ❓ About
+
+**okish-morphe-patches** is a personal collection of custom patches created for the [Morphe](https://morphe.software) patching ecosystem, primarily developed for personal use and educational research on apps I actively use.
+
+---
+
+## 🚀 How to Use
+
+If you are on an Android device with **Morphe Manager** installed, tap the button below to add this repository as a patch source:
+
+[![Add Source to Morphe](https://img.shields.io/badge/Import%20to%20Morphe-Click%20Here-8A2BE2?style=for-the-badge&logo=android&logoColor=white)](https://morphe.software/add-source?github=byehi98/okish-morphe-patches)
+
+Direct URL:  
+👉 **https://morphe.software/add-source?github=byehi98/okish-morphe-patches**
+
+---
+
+## 🩹 Patches list
+
+<!-- PATCHES_START -->
+> **[v1.53.0](https://github.com/byehi98/okish-morphe-patches/releases/tag/v1.53.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;171 patches total
+<details>
+<summary>📦 Into the Dead 2&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.89.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [AD Instant Rewards](#ad-instant-rewards) | Grants rewarded-video rewards instantly |  |
+| [Full IAP Unlock](#full-iap-unlock) | Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed. |  |
+| [Native IAP Patch](#native-iap-patch) | Patches the game's native code directly so purchases and subscriptions (including VIP) are approved on your own device, with no helper library loaded at runtime. |  |
+
+</details>
+
+<details>
+<summary>📦 Into the Dead&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.9.5 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Ad Removal & Instant Boost Rewards](#ad-removal-instant-boost-rewards) | Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event. |  |
+| [Into the Dead Billing Bypass](#into-the-dead-billing-bypass) | Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted. |  |
+
+</details>
+
+<details>
+<summary>📦 Adda247&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 12.8.5 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Adda247 Ad Removal](#adda247-ad-removal) | Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown. |  |
+| [Adda247 MoEngage In-App Blocker](#adda247-moengage-in-app-blocker) | Blocks the app's own MoEngage in-app promotions (the recurring "recommended for you" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block. |  |
+
+</details>
+
+<details>
+<summary>📦 Dead Target: Offline Games 3D&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.186.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [All items owned](#all-items-owned) | Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed. |  |
+| [Instant rewarded video](#instant-rewarded-video) | Rewards from "watch an ad" popups are granted immediately, without playing an ad. |  |
+| [Unlimited currency](#unlimited-currency) | Your cash, gold and diamonds always show the maximum. You never run short of money. |  |
+
+</details>
+
+<details>
+<summary>📦 Big Hunter&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.1.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Big Hunter Fake Purchase](#big-hunter-fake-purchase) | Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts. |  |
+| [Big Hunter PairIP License Bypass](#big-hunter-pairip-license-bypass) | Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app. |  |
+| [Big Hunter Remove Ads](#big-hunter-remove-ads) | Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads). |  |
+| [Big Hunter Rewards Without Ads](#big-hunter-rewards-without-ads) | Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads). |  |
+
+</details>
+
+<details>
+<summary>📦 App Usage&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.20 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass PairIP license check](#bypass-pairip-license-check) | Disables PairIP (com.pairip.licensecheck) verification: no install-source check, no Play licensing bind, no paywall/error dialog, no retry loop and no delayed process exit. Required for sideloaded or re-signed APKs, which PairIP would otherwise close after a few seconds. |  |
+| [Spoof original signature](#spoof-original-signature) | Makes the app see the original developer certificate instead of the one used to re-sign the APK. Stops the ~2 second anti-tamper process kill (Process.killProcess + System.exit) scheduled from the window lifecycle, prevents the PRO flag from being reset to the free version, and restores the trusted paths used by widgets, export/backup and history queries. |  |
+| [Unlock premium](#unlock-premium) | Unlocks the PRO entitlement: isPro returns true, the free-build/paywall gate returns false, the "Upgrade to PRO" dialog is disabled and the free-version master flag is never set at startup (which also removes the PRO-only placeholders and limits in the widget configuration, usage history, export and backup windows). |  |
+
+</details>
+
+<details>
+<summary>📦 CrazyGames&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.7.14 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass PairIP license check](#bypass-pairip-license-check) | Disables PairIP (com.pairip.licensecheck) verification: no install-source check, no Play licensing bind, no paywall and no delayed process exit. Required for sideloaded or re-signed APKs, which PairIP would otherwise close after 30 seconds with LicenseActivity plus System.exit(0). |  |
+| [Google login via MicroG-RE](#google-login-via-microg-re) | Redirects Google Play Services to MicroG-RE (app.revanced.android.gms), spoofs the original package + signing certificate for Google's OAuth check, and forces the legacy Google Sign-In flow, so "Continue with Google" works on a re-signed build. Requires MicroG-RE installed and signed in; the patched app must replace the Play install. Does not help with stock GMS; the email login needs no patch. |  |
+| [Remove ads and unlock ad rewards](#remove-ads-and-unlock-ad-rewards) | Suppresses every midroll and rewarded ad (native AdMob and Web ad providers) and answers the game's ad request locally, so rewards are granted without watching a video. No ad request ever reaches the portal or AdMob. |  |
+
+</details>
+
+<details>
+<summary>📦 Ophelia's Paradise&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 26.11.15 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass PairIP license check](#bypass-pairip-license-check) | Disables the PairIP licence check (Play licensing service, signed-response validation, paywall/error dialog and the delayed System.exit) so the re-signed app launches instead of closing itself. Required for every other Ophelia's Paradise patch. |  |
+| [Unlock full version](#unlock-full-version) | Makes PremiumUpgrade.HasPremiumUpgrade() always return true, unlocking the full version: no lives/energy system, unlocked character and gem selection, and no out-of-lives ad popup. The check is a local PlayerPrefs flag with no server-side validation, so the entitlement persists. |  |
+
+</details>
+
+<details>
+<summary>📦 Brotato&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.3.951 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass PairIP signature & license check](#bypass-pairip-signature-license-check) | Neutralises the PairIP v2 signature gate (SignatureTamperedException) and the Play licence flow (service bind, signed-response validation, paywall and its delayed System.exit) so a re-signed Brotato build launches. Required for every other Brotato patch. |  |
+| [Free IAP](#free-iap) | Every real-money shop, mall and DLC tile is granted locally the moment you tap it — no Play billing, no payment screen, no charge. Repeat purchases of the same tile keep working. Client-side only. |  |
+
+</details>
+
+<details>
+<summary>📦 20 Minutes Till Dawn&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 8.7 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass PairIP signature, license & VM gate](#bypass-pairip-signature-license-vm-gate) | Neutralises the PairIP signature and license gates, restores the virtualised lifecycle methods with real Unity delegating bodies, and skips the startup VM program. Required for every other 20 Minutes Till Dawn patch. Credits: fynnaly. |  |
+| [Free in-app purchases](#free-in-app-purchases) | Every shop purchase is granted instantly — no Google Play payment sheet, no real charge. Covers coins, packs, the one-year battle pass and the First Purchase / Ad-Free Forever bundles, which are claimed by tapping Buy once like any other product. |  |
+| [Remove ads & grant ad rewards](#remove-ads-grant-ad-rewards) | Removes every ad (rewarded, interstitial, app-open, banner, MREC) and grants rewarded-ad rewards instantly — no video ever plays, and no ad can appear anywhere in the game. |  |
+
+</details>
+
+<details>
+<summary>📦 Crash of Cars&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.9.36 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Crash of Cars Anti-hacking Check](#crash-of-cars-anti-hacking-check) | Stops the game's built-in tamper detector from flagging the app as modified. The game ships a native check that fingerprints classes.dex and quietly marks the app as not genuine whenever the fingerprint does not match the one it was built with — which is exactly what happens the moment any mod is applied, since changing the app inevitably changes that fingerprint. With this on, the game keeps reporting itself as a normal, unmodified install, so purchases and other store features are not silently suppressed. |  |
+| [Crash of Cars Free IAP](#crash-of-cars-free-iap) | Every store item — coin packs, gem bundles, remove ads and the starter bundles — is granted the instant you tap Buy, and no Google Play payment sheet ever opens. Because nothing is fetched from Play, purchases work fully offline with no Play account, and remove-ads stays unlocked across restarts since the entitlement is re-delivered from a fake owned-purchases list at every launch. |  |
+| [Crash of Cars Instant Ad Rewards](#crash-of-cars-instant-ad-rewards) | Turns every "watch a video" offer into an instant payout. Coins, gems and boosters that the game offers in exchange for sitting through a rewarded advert are credited the moment you tap, with no video to play, no countdown and no waiting — and the offer stays repeatable afterwards, so you can claim it as often as you like. Works with no internet connection and the reward stays credited after restarting the game. |  |
+| [Crash of Cars No Ads](#crash-of-cars-no-ads) | Removes the full-screen advert that plays at the end of every race, so the results screen comes up straight away instead of behind an ad you have to sit through or skip. The race still finishes normally — the game is told the advert opened and closed exactly as it would have been, so nothing gets stuck waiting for it. Works offline and survives restarts, because no part of the ad display depends on a network round trip. |  |
+| [Crash of Cars Sideload / APK Expansion Bypass](#crash-of-cars-sideload-apk-expansion-bypass) | IMPORTANT: this patch only removes the licensing gate — it does NOT supply the game data. The 153 MB expansion file must already be on your device before the game will start. Copy main.<versionCode>.com.notdoppler.crashofcars.obb into Android/obb/com.notdoppler.crashofcars/ (on most phones that is the internal Android/obb folder, not the one on the SD card) using a file manager or an ADB push. If the file is missing or in the wrong place the game will still stall on the loading screen no matter what this patch does. Aside from that: lets the game start from a sideloaded APK instead of a Google Play install. The downloader refuses to use the expansion file even when it is present because Play's licensing server rejects a re-signed package, so the game stops on "Download failed because you may not have purchased this app" before it ever reaches the menu. This forces the expansion downloader past both gates: it always reports success instead of a stale or unlicensed error, and it always takes the licensed path when Play answers. The expansion data is still md5-verified file by file exactly as shipped, so a genuinely incomplete or corrupt download is still reported rather than silently ignored. |  |
+
+</details>
+
+<details>
+<summary>📦 Dead Trigger&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.3.4 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Dead Trigger Free Store](#dead-trigger-free-store) | Free store: tap any gold or money pack in the shop and it's yours instantly. |  |
+
+</details>
+
+<details>
+<summary>📦 Document Scanner&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.9.16 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Doc Scanner Premium](#doc-scanner-premium) | Unlocks all premium features, removes ads, and enables pro themes. |  |
+
+</details>
+
+<details>
+<summary>📦 Doodle Jump&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.11.38 | 3.11.40 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Doodle Jump Billing Bypass](#doodle-jump-billing-bypass) | Unlocks the full game by bypassing Google Play billing. |  |
+| [Doodle Jump Resurrection Bypass](#doodle-jump-resurrection-bypass) | Resurrect instantly after death without watching a rewarded ad. |  |
+
+</details>
+
+<details>
+<summary>📦 Dr. Driving&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.73 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Dr. Driving Ad Removal](#dr-driving-ad-removal) | Removes all Google AdMob ads (banner, interstitial, rewarded). |  |
+| [Dr. Driving Unlimited Coins](#dr-driving-unlimited-coins) | Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins. |  |
+| [Dr. Driving Unlimited Gold](#dr-driving-unlimited-gold) | Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold. |  |
+
+</details>
+
+<details>
+<summary>📦 Earn to Die 2&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.5.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Earn to Die 2 Free IAP](#earn-to-die-2-free-iap) | Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing. |  |
+| [Earn to Die 2 No Ads + Instant Rewards](#earn-to-die-2-no-ads-instant-rewards) | Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks. |  |
+| [Earn to Die 2 Remove Google Play Check](#earn-to-die-2-remove-google-play-check) | Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded. |  |
+
+</details>
+
+<details>
+<summary>📦 Fancy Pants Adventures&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.0.50 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Fancy Pants Unlock Premium](#fancy-pants-unlock-premium) | Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true. |  |
+
+</details>
+
+<details>
+<summary>📦 Dumbbell Workout at Home&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.3.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Firebase Cert Spoof](#firebase-cert-spoof) | Restores Firebase requests on a re-signed APK. The Firebase API key is restricted to the Play build's package + signing certificate, so Installations, Remote Config, Auth and Storage requests from a patched build are rejected with API_KEY_ANDROID_APP_BLOCKED. This patch forces the certificate hash Firebase sends in X-Android-Cert to the original signing certificate's SHA-1, so those requests are accepted again. It does not fix the Start-workout crash — that was a native asset-decryption check covered by the Signature Spoof patch. It also does not make Google Sign-In work — that is validated server-side against the developer's OAuth client and cannot be patched (use the unpatched app for cloud sync). |  |
+| [Remove Ads](#remove-ads) | Unlocks the paid "Remove ads" product locally, so the app behaves as if it was purchased: banners, native, interstitial, app-open and splash ads stop, and the "Remove ads" row disappears from settings. No Play payment is involved and the entitlement survives restarts. Rewarded ads are left untouched. Requires the Signature Spoof patch in the same bundle for the patched APK to start. Google Sign-In / Backup & Restore does not work on a re-signed APK: the app's OAuth client is bound to the developer's signing certificate and Google refuses token issuance server-side, so no microG-style patch or signature spoof can bypass it. Use the unpatched app if you need cloud sync. |  |
+| [Signature Spoof](#signature-spoof) | Neutralises the app's built-in certificate verifier so the patched APK keeps running. The app re-reads its own signing certificate on every screen and compares 46 hardcoded slices of it against baked-in values; because patching always re-signs the APK, those comparisons fail and the app force-closes while the first activity is being created. With this patch every verifier reports the original, unmodified certificate instead, so all 46 checks pass. The bundled native library runs two further certificate checks: one stops the library from loading, and one silently stops workout data from being decrypted, which crashes the app the moment you tap Start. Both are bypassed as well. This patch is required — the app can neither start nor open a workout without it. |  |
+
+</details>
+
+<details>
+<summary>📦 Burrito Bison: Launcha Libre&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.75 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Fix app opening](#fix-app-opening) | Required so the modified app opens without crashing — skips signature, root and emulator checks. |  |
+| [Free purchases](#free-purchases) | Get paid items for free — tapping buy grants the item instantly without Google Play payment popup. |  |
+
+</details>
+
+<details>
+<summary>📦 FR Legends&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 0.4.9 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | The "watch a video" buttons give you the reward straight away. Tap one and the cash, gold or bonus is yours — no video, no waiting, and the buttons are always ready to use. |  |
+| [Free Store Purchases](#free-store-purchases) | Everything in the shop is free. Tap a cash pack, a gold pack, a car pack or the Livery Creator Pass and you get it straight away — no payment screen, no charge. |  |
+| [Remove Ads](#remove-ads) | Stops banners, roadside billboards and full-screen ads from appearing. Races and menus carry on as normal — the ads just never show up. |  |
+
+</details>
+
+<details>
+<summary>📦 Head Basketball&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.6.4 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | Get your ad rewards for free. Every "watch ad" button gives you the reward right away — no ad to sit through, no waiting. |  |
+| [Free Store](#free-store) | Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved. |  |
+| [Unlimited Points](#unlimited-points) | Free coins forever. Your point balance always reads as the maximum, so you can afford anything in the shop. You can still spend and save normally. |  |
+
+</details>
+
+<details>
+<summary>📦 Head Soccer&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 7.1.12 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | Every "watch ad" reward is granted instantly — no ad appears, no "failed to load advertisement" popup, and nothing to wait for. |  |
+| [Free Store](#free-store) | Everything in the shop is free. Tap an item and you get it right away — points, characters and presents — with no Google Play payment screen and nothing charged. |  |
+| [Unlock Collab Characters](#unlock-collab-characters) | Characters that normally want Head Boxing, Boom Tank Showdown or Head Basketball installed are unlocked from the start — no other game, no Play Store, nothing to download. |  |
+
+</details>
+
+<details>
+<summary>📦 Jetpack Joyride&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.104.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | Every "watch an ad" offer in Jetpack Joyride pays out instantly — the reward is claimed without playing any video, with no countdown and no network round trip, and the offer stays repeatable. Works offline. |  |
+| [Jetpack Joyride Billing Bypass](#jetpack-joyride-billing-bypass) | Intercepts all in-app purchases and reports instant success to the game engine. |  |
+| [Remove Ads](#remove-ads) | Stops the full-screen interstitial adverts Jetpack Joyride shows between runs. The game's own "no ad available" path is replayed, so the run continues immediately instead of freezing or waiting on a skipped advert. |  |
+| [Unlock Events](#unlock-events) | Unlocks every event (seasonal worlds, event missions and their pop-ups) by disabling the game's internal "IAP cheat" flag check. When a free-IAP patch forges a purchase the game's receipt validator marks the account as a cheater and locks all cheater-restricted events behind an 'Event Restricted' pop-up; this patch makes that check always answer 'not a cheat', so the events open normally. |  |
+
+</details>
+
+<details>
+<summary>📦 Ninja Arashi&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.9.3 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | Every "watch ad" button pays out immediately without playing an ad: the shop reward grants 2000 coins and 50 diamonds, and the in-level revive button revives you. Works offline and can be tapped repeatedly. |  |
+| [Free In-App Purchases](#free-in-app-purchases) | The four shop buttons grant their item directly instead of opening Google Play billing: 20,000 coins, 2,000 diamonds, Remove Ads and the Halo pack. No payment sheet appears and the purchases are saved normally. |  |
+| [Remove Ads](#remove-ads) | Makes the game start up ad-free: banners, interstitials and the app-open ad never load, and the shop already shows "Remove Ads" as owned. The game's own ad-free flag is set before Unity starts, so the setting survives restarts and clearing app data simply re-applies it on the next launch. |  |
+
+</details>
+
+<details>
+<summary>📦 Ninja Arashi 2&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.9.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | Every "watch an ad" button pays out immediately without playing an ad: the main-menu gift grants 100 diamonds and the in-level revive button revives you. Works offline. The gift can be claimed repeatedly — the cooldown and availability checks are removed. |  |
+| [Free In-App Purchases](#free-in-app-purchases) | Every shop button grants its item directly instead of opening Google Play billing: Remove Ads and the four diamond packs (1 / 2 / 5 / 10). No payment sheet appears, the grant runs the game's own success handler, and the purchase is saved normally. |  |
+| [Remove Ads](#remove-ads) | Removes every ad from the game: banners, interstitials, the app-open ad and the rewarded-video prompts are all suppressed in native code, so the ad SDK is never asked to display anything. Works offline and needs no purchase. |  |
+
+</details>
+
+<details>
+<summary>📦 Sonic Dash Run&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 10.8.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Ad Rewards](#free-ad-rewards) | The "watch a video" buttons give you the reward straight away. Tap one and the rings, red star rings, gems or unlock are yours — no video and no waiting. |  |
+| [Free Store Purchases](#free-store-purchases) | Everything sold for real money is free. Tap a ring pack, a gem pack, a red star ring bundle or a character offer and it is granted straight away — no payment screen and no charge. |  |
+| [Remove Ads](#remove-ads) | Stops banners, full-screen interstitials and ad pop-ups from appearing. Runs and menus carry on as normal — the ads just never show up. |  |
+
+</details>
+
+<details>
+<summary>📦 Dan the Man&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.14.14 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free IAP](#free-iap) | Every store item — gold packs, skins and remove ads — is granted the moment you tap Buy. No Google Play payment sheet ever opens and nothing is charged. |  |
+| [Native IAP Patch](#native-iap-patch) | Fixes the native purchase result on both ABIs (arm64-v8a + armeabi-v7a) so every store purchase (gold packs, skins, remove ads) is granted on device — without depending on the Java bridge handshake. |  |
+| [Remove ads](#remove-ads) | Removes all ads. Reward videos now give you the prize instantly — no watching needed. |  |
+| [Unlimited money (restore save)](#unlimited-money-restore-save) | Loads the unlimited money save into the game the first time you open it. |  |
+| [Unlimited money (save bundle)](#unlimited-money-save-bundle) | Packs the special save file (unlimited coins & gems, everything unlocked) inside the app. |  |
+
+</details>
+
+<details>
+<summary>📦 Fancade&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.15.27 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free IAP](#free-iap) | Buy any gold pack without paying: each pack grants its gems and its no-ads time (the last pack is permanent), and purchases persist after a restart. No Play payment dialog is shown. |  |
+| [Remove ads & free rewards](#remove-ads-free-rewards) | Interstitial ads no longer show, and reward ads pay out instantly — tap the reward button and the coins/gems are granted without watching a video. The "watch ad for gems" button is always available. |  |
+
+</details>
+
+<details>
+<summary>📦 Fruit Ninja (Free)&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.98.4 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free IAP](#free-iap) | Everything in the shop is free. Tap "Buy" on any item — remove ads, coin packs, or anything else — and you get it right away. No Google Play payment window opens and you are never charged. If something goes wrong you will just see a "purchase failed" message; the game keeps working as normal. |  |
+
+</details>
+
+<details>
+<summary>📦 Magic Sort&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 0.0.3536 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free IAP](#free-iap) | Every in-app purchase completes instantly — coin packs, bundles and the no-ads offer — with no Google Play payment sheet. |  |
+| [Instant Rewarded Ads](#instant-rewarded-ads) | Every watch-ad offer grants its reward instantly with no video. |  |
+| [Remove Ads](#remove-ads) | All ads are permanently removed — banners, interstitials and app-open ads never load, and the store treats the no-ads product as owned. |  |
+
+</details>
+
+<details>
+<summary>📦 Off The Road&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.18.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Rewarded Ads](#free-rewarded-ads) | The "watch a video" buttons pay out instantly. Tap one and you get the cash, repair or ticket reward without any ad or wait. |  |
+| [Free Store](#free-store) | Everything in the shop is free. Tap any item — coins, tickets, VIP, remove-ads, car packs or bundles — and it is granted immediately, with no Google Play payment screen and nothing charged. |  |
+| [Remove Ads](#remove-ads) | Removes full-screen and banner ads. Rewarded "watch a video" buttons keep working. |  |
+| [VIP Club Unlocked](#vip-club-unlocked) | Unlocks the VIP Club subscription automatically on every launch. No payment screen, no Google Play subscription, nothing charged. |  |
+
+</details>
+
+<details>
+<summary>📦 Progressbar95&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.1111 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Store](#free-store) | Tap any shop item to get it free. No payment, no Google Play popup. |  |
+| [License Fix](#license-fix) | Stops license checks from blocking the game on patched installs. |  |
+| [No Ads + Free Rewards](#no-ads-free-rewards) | Blocks all ads and gives reward-ad gifts instantly, no video needed. |  |
+| [Skip Play License Check](#skip-play-license-check) | Stops Google Play's PAIRIP check from showing an overlay and force-closing the game. |  |
+
+</details>
+
+<details>
+<summary>📦 Swamp Attack&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.9.0.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Store](#free-store) | Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged. |  |
+| [Instant Rewards](#instant-rewards) | Rewarded videos give their reward instantly — no ad ever plays. Free revive, double coins, free items, etc. all work without watching anything. |  |
+| [Remove Ads](#remove-ads) | Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work. |  |
+
+</details>
+
+<details>
+<summary>📦 Smash Bandits Racing&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.10.05.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free Store Purchases](#free-store-purchases) | Everything in the shop is free. Tap a Bandit Chips pack, a Smash Bucks pack, a starter bundle or Remove Ads and the content is granted immediately — no Play purchase sheet, no charge.<br><br>⚠ Requires the game assets (OBB). This APK does not contain the ~238 MB asset bundle, so the game stays on the loading screen until it is installed: extract main.1100506.com.hutchgames.smashbandits.obb from the original APKM/XAPK and copy it to /sdcard/Android/obb/com.hutchgames.smashbandits/ (internal storage, not the SD card). |  |
+
+</details>
+
+<details>
+<summary>📦 Crossy Road&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 7.15.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Free store](#free-store) | The in-game store is free. Just tap "Buy" and the item is yours — no payment needed. For an ad-free game, just buy the ad-block item from the store. |  |
+
+</details>
+
+<details>
+<summary>📦 FreeJobAlert&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.0.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [FreeJobAlert Ad Removal](#freejobalert-ad-removal) | Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native). |  |
+| [FreeJobAlert License Bypass](#freejobalert-license-bypass) | Bypasses the Pairip Play Store installation check so the app launches normally. |  |
+
+</details>
+
+<details>
+<summary>📦 TMNT: Shredder's Revenge&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.2.20 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Full Game Unlock](#full-game-unlock) | Unlocks the full game, arcade, survival, custom game and DLC characters by faking Google Play purchase query results. |  |
+
+</details>
+
+<details>
+<summary>📦 Grimvalor&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.2.13 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Full game unlock](#full-game-unlock) | Full Game Unlocked. |  |
+
+</details>
+
+<details>
+<summary>📦 HAAK&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.4.3 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [HAAK Free Purchases and Unlocked Paid Content](#haak-free-purchases-and-unlocked-paid-content) | Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an "not purchased" query result all grant the product instead. |  |
+
+</details>
+
+<details>
+<summary>📦 Hill Climb Racing&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.74.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hill Climb Racing Ad Removal](#hill-climb-racing-ad-removal) | Removes all ads — banner and pop-up ads never show, and the game treats you as ad-free from the start without any repeat purchase pop-ups. |  |
+| [Hill Climb Racing Free Store](#hill-climb-racing-free-store) | Everything in the store is free — coins, gems, paints and bundles are added instantly with no Google Play payment. |  |
+| [Hill Climb Racing Instant Rewarded Video Rewards](#hill-climb-racing-instant-rewarded-video-rewards) | Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad. |  |
+
+</details>
+
+<details>
+<summary>📦 Alto's Adventure&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.8.34 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [IAP Unlock](#iap-unlock) | Unlocks all in-app purchases by faking Google Play billing query results. |  |
+| [Unlimited Coins](#unlimited-coins) | Sets your coin balance to 999,999,999 every time your profile loads or updates. Coins effectively never run out, so every character and upgrade is affordable. Applied to libil2cpp.so at the code level, so clearing app data does not reset it. |  |
+
+</details>
+
+<details>
+<summary>📦 Alto's Odyssey&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.0.45 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [IAP Unlock](#iap-unlock) | Unlocks all in-app purchases in Alto's Odyssey by faking Google Play billing query results. |  |
+| [Unlimited Coins](#unlimited-coins) | Sets your coin balance to 999,999,999 every time your profile loads or updates. Coins effectively never run out, so every character and upgrade is affordable. Applied to libil2cpp.so at the code level, so clearing app data does not reset it. |  |
+
+</details>
+
+<details>
+<summary>📦 Injustice: Gods Among Us&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.5.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Injustice Ads Removal](#injustice-ads-removal) | Get stamina without watching ad Video. |  |
+| [Injustice Billing Bypass](#injustice-billing-bypass) | Bypass billing get the items in store for free. |  |
+| [Injustice Native Store Unlock](#injustice-native-store-unlock) | Unlocks the native storefront without Google Play (patches libInjusticeGAU.so: store never enters the blocked state, purchase gates are skipped), so the free-item hooks can grant every pack. |  |
+
+</details>
+
+<details>
+<summary>📦 Aliens Drive Me Crazy&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.2.11 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Instant rewards](#instant-rewards) | Reward buttons (free revive, double coins) pay out instantly without playing any ad video (native libil2cpp.so patch for both arm64-v8a and armeabi-v7a). |  |
+| [Remove ads](#remove-ads) | Stops all interstitial/commercial-break ads between games (native libil2cpp.so patch for both arm64-v8a and armeabi-v7a; rewarded videos are handled by the instant-rewards patch). |  |
+| [Unlimited coins](#unlimited-coins) | Coin save reads always return ~1.34 billion coins (native libil2cpp.so patch on Org.TotalCoins for both arm64-v8a and armeabi-v7a). |  |
+
+</details>
+
+<details>
+<summary>📦 Lemmings: Puzzle Survival&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 9.5.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Lemmings: Native Grant Hook](#lemmings-native-grant-hook) | Store items grant instantly when tapped, through the game's own reward system — no purchase flow is ever started, nothing is charged, and purchase-failure popups are removed. |  |
+| [Lemmings: VIP Unlock](#lemmings-vip-unlock) | Unlocks VIP status without paying. VIP banners, rewards and bonuses show as active — no subscription needed. |  |
+
+</details>
+
+<details>
+<summary>📦 Lumina Walls&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.0.2.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Lumina PairIP License Bypass](#lumina-pairip-license-bypass) | Disables the PairIP license check (Play licensing service validation + signed-response verification + paywall/error dialog + forced System.exit). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app. |  |
+| [Lumina Premium](#lumina-premium) | Unlocks all premium wallpapers and categories. |  |
+
+</details>
+
+<details>
+<summary>📦 Magic Survival&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 0.9941 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Magic Survival Free Store](#magic-survival-free-store) | Grants every in-app purchase for free: tapping Buy fabricates a successful Google Play purchase (remove-ad, gem packs) and feeds it through the billing listener without opening the payment dialog. Purchases can be repeated any number of times, granted entitlements are restored on every launch, and the store catalog is answered locally so the shop also works without an internet connection. |  |
+| [Magic Survival Instant Rewarded Rewards](#magic-survival-instant-rewarded-rewards) | Grants rewarded-ad rewards instantly on tap without watching an ad: the rewarded ad reports ready immediately and show() fires the reward and close callbacks synchronously. |  |
+| [Magic Survival Remove Ads](#magic-survival-remove-ads) | Removes interstitial, app-open and banner ads: nothing is ever loaded or displayed, and any show call resolves the game's ad callbacks instantly so the flow never stalls. |  |
+
+</details>
+
+<details>
+<summary>📦 Missiles&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.45 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Missiles Ads Removal](#missiles-ads-removal) | Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad. |  |
+| [Missiles Billing Bypass](#missiles-billing-bypass) | Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment. |  |
+| [Missiles License Bypass](#missiles-license-bypass) | Bypasses the Pairip Play Store license check so the app launches normally. |  |
+
+</details>
+
+<details>
+<summary>📦 Only One&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.3053 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Only One Free Store](#only-one-free-store) | Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads. |  |
+| [Only One IAP billing bypass](#only-one-iap-billing-bypass) | Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens. |  |
+| [Only One PairIP removal](#only-one-pairip-removal) | Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits. |  |
+
+</details>
+
+<details>
+<summary>📦 Plague Inc.&nbsp;&nbsp;•&nbsp;&nbsp;13 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.27.5 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Plague Inc. Custom Scenario Download Fix](#plague-inc-custom-scenario-download-fix) | Fixes custom scenario downloads by setting the HTTP User-Agent the scenario server requires. |  |
+| [Plague Inc. Custom Scenario Upgrades](#plague-inc-custom-scenario-upgrades) | Gives 8 custom scenario save slots and unlimited downloads. |  |
+| [Plague Inc. Native Custom Scenario Slots](#plague-inc-native-custom-scenario-slots) | Forces the native engine to report custom scenario slot tier 3 (8 slots, unlimited downloads). |  |
+| [Plague Inc. Outbreak Popup Bypass](#plague-inc-outbreak-popup-bypass) | Auto-claims outbreak trial missions and suppresses outbreak purchase/onboarding popups. |  |
+| [Plague Inc. Premium](#plague-inc-premium) | Unlocks all premium features and disables premium prompts. |  |
+| [Plague Inc. Remove Banner Ads](#plague-inc-remove-banner-ads) | Removes AppLovin banner ads and the Ndemic premium promo during gameplay. |  |
+| [Plague Inc. Skip Rewarded Video Ads](#plague-inc-skip-rewarded-video-ads) | Grants rewarded video bonuses instantly without watching ads. |  |
+| [Plague Inc. Sync Premium Entitlements](#plague-inc-sync-premium-entitlements) | Registers unlocked premium content with the native engine so premium modes run without trial banners. |  |
+| [Plague Inc. Unlock All Genes](#plague-inc-unlock-all-genes) | Unlocks all genes by earning them through the game's own unlock path when the gene menu opens. |  |
+| [Plague Inc. Unlock All Scenarios](#plague-inc-unlock-all-scenarios) | Unlocks all official scenarios. |  |
+| [Plague Inc. Unlock Disease Types](#plague-inc-unlock-disease-types) | Unlocks all disease types including Neurax Worm, Necroa Virus, Simian Flu and Shadow Plague. |  |
+| [Plague Inc. Unlock Expansions](#plague-inc-unlock-expansions) | Unlocks Cure Mode, Plague Pack, custom scenarios and bypasses the Play Pass check. |  |
+| [Plague Inc. Unlock Fast-Forward](#plague-inc-unlock-fast-forward) | Removes the premium lock from the in-game fast-forward button. |  |
+
+</details>
+
+<details>
+<summary>📦 Prince of Persia: The Lost Crown&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.1.9 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Prince of Persia: Full Game Unlock (native)](#prince-of-persia-full-game-unlock-native) | Replaces the game's built-in security helper with a friendly one that unlocks the full game right at startup — no waiting. |  |
+
+</details>
+
+<details>
+<summary>📦 Plants vs. Zombies FREE&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.19.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [PvZ FREE Ad Removal & Free Rewards](#pvz-free-ad-removal-free-rewards) | Removes interstitials and grants rewarded-video rewards instantly without showing an ad. |  |
+| [PvZ FREE Free IAP](#pvz-free-free-iap) | Forge in-app purchases so coins, Ads Free and bundles are granted without Google Play payment. |  |
+
+</details>
+
+<details>
+<summary>📦 Rodeo Stampede: Sky Zoo Safari&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.27.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Rodeo Stampede Ad-Free (Ads blocked + instant rewards)](#rodeo-stampede-ad-free-ads-blocked-instant-rewards) | Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads. |  |
+| [Rodeo Stampede Free Purchase](#rodeo-stampede-free-purchase) | Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel. |  |
+
+</details>
+
+<details>
+<summary>📦 Shooty Skies&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.441.100105 | 3.441.100104 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Shooty Skies Ad-Free (Ads blocked + instant rewards)](#shooty-skies-ad-free-ads-blocked-instant-rewards) | Blocks banner, interstitial, app-open and native ads, and turns rewarded videos into instant rewards — nothing is ever fetched or displayed. |  |
+| [Shooty Skies Free store](#shooty-skies-free-store) | Every store item is free — tap "Buy" and the purchase completes instantly with no Google Play payment, and owned items like ad removal are granted at startup. |  |
+
+</details>
+
+<details>
+<summary>📦 Smash Hit&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.5.14 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Smash Hit Premium Unlock](#smash-hit-premium-unlock) | Unlocks premium and all game modes without purchase. |  |
+
+</details>
+
+<details>
+<summary>📦 Swamp Attack 2&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.5.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Swamp Attack 2: Instant Rewarded Ads](#swamp-attack-2-instant-rewarded-ads) | Watch-ad offers grant their reward instantly with no ad. Forced interstitials stay gone. |  |
+| [Swamp Attack 2: Remove Ads](#swamp-attack-2-remove-ads) | Removes forced ads. No more ads between levels, no banners. |  |
+| [Swamp Attack 2: Unlimited Currency](#swamp-attack-2-unlimited-currency) | Never run out of coins, gems or other resources. Buying things never lowers your balance. Note: ignore the coins/diamonds value shown — even if it shows less than the item price, just tap the item and it will be granted. |  |
+
+</details>
+
+<details>
+<summary>📦 Swift Backup&nbsp;&nbsp;•&nbsp;&nbsp;6 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 5.1.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Swift Backup Cloud Backup Without Sign-In](#swift-backup-cloud-backup-without-sign-in) | Lets an anonymous account connect file-based cloud providers (SMB, WebDAV, SFTP, FTP, S3, Dropbox, OneDrive, Box, Mega, Filen, Drime, Yandex, pCloud, Mail.ru) and run cloud backups/restores without signing in with Google. |  |
+| [Swift Backup Local Account Backup](#swift-backup-local-account-backup) | Extends Export/Import settings with labels, configs, schedules, the cloud backup catalog and UI preferences so the local account survives a reinstall. |  |
+| [Swift Backup Local Cloud Metadata](#swift-backup-local-cloud-metadata) | Makes cloud backups work by keeping their metadata on the device and the connected cloud instead of the Swift Backup server. |  |
+| [Swift Backup Premium Unlock](#swift-backup-premium-unlock) | Unlocks all Premium features. |  |
+| [Swift Backup Tamper Protection](#swift-backup-tamper-protection) | Stops the app from closing itself on patched installs. |  |
+| [Swift Backup Web Login](#swift-backup-web-login) | Makes Google sign-in work for connecting cloud accounts. |  |
+
+</details>
+
+<details>
+<summary>📦 Swordigo&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.4.12 | 1.4.13 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Swordigo Premium Unlock](#swordigo-premium-unlock) | Enables ad-free, guiding compass, and coin doubler without purchase. |  |
+
+</details>
+
+<details>
+<summary>📦 Tentacle Wars&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.1.27 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Tentacle Wars Free Purchases](#tentacle-wars-free-purchases) | Spoofs in-app purchases as instantly successful: tapping Buy grants the SKU directly through the game's own purchase callback — no Google Play dialog, no payment. For ad-free, just tap the Remove-Ads button on the main game screen. |  |
+
+</details>
+
+<details>
+<summary>📦 Traffic Racer&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Traffic Racer IAP Bypass](#traffic-racer-iap-bypass) | Everything in the store is free with one tap — cash packs, double cash, remove ads, starter kit and the premium car. Just tap Buy and it grants instantly, no Google Play payment needed, and purchases persist across restarts. |  |
+
+</details>
+
+<details>
+<summary>📦 Traffic Rider&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.21 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Traffic Rider Ads Removal + Instant Rewards](#traffic-rider-ads-removal-instant-rewards) | Removes ads and grants rewarded rewards instantly: interstitial/banner/app-open never show, rewarded videos fire onUserEarnedReward(1.0) instantly without ad. |  |
+| [Traffic Rider IAP Bypass](#traffic-rider-iap-bypass) | Everything in the store is free with one tap — in-game currency, double cash, remove ads, extra continues, all bikes and packs. Just tap Buy and it grants instantly, no Google Play payment needed. |  |
+
+</details>
+
+<details>
+<summary>📦 TrueCloud&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.6.5.13 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [TrueCloud Ads](#truecloud-ads) | Removes all ads: ad service, house-ad network, ad rows, polling, and banner/popup surfaces; disables cloud boot pages, cloud prompts, and the help-center robot. |  |
+| [TrueCloud Protection](#truecloud-protection) | Bypasses anti-emulator self-kill and disables analytics, telemetry, device-ID, and crash-reporting SDKs. |  |
+| [TrueCloud UX](#truecloud-ux) | Hides the in-app rating dialog and rate-us tip banner. |  |
+| [TrueCloud Update](#truecloud-update) | Blocks all app update and force-update dialogs and their version checks. |  |
+| [TrueCloud VIP](#truecloud-vip) | Unlocks cloud/WeChat-call entitlements, extends alarm replay duration and message window, and disables 4G trial countdown gates. - Doesn't unlock Cloud Server Side Storage. |  |
+
+</details>
+
+<details>
+<summary>📦 CSR Racing&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 5.1.5 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlimited Cash](#unlimited-cash) | Cash reads as 2,147,483,647 everywhere and cash purchases never deduct it. The game's OBB data file (462.6 MiB main.20251202.com.naturalmotion.csrracing.obb) must still be installed for the game to boot. |  |
+| [Unlimited Gold](#unlimited-gold) | Gold reads as 268,435,455 everywhere and gold purchases never deduct it. The game's OBB data file (462.6 MiB main.20251202.com.naturalmotion.csrracing.obb) must still be installed for the game to boot. |  |
+
+</details>
+
+<details>
+<summary>📦 Vector&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.10.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Vector Ad Spoof](#vector-ad-spoof) | Spoofs rewarded ad callbacks to grant coins/rewards without showing ads. |  |
+| [Vector Money Mod](#vector-money-mod) | Spending money increases your balance instead of decreasing it (native libil2cpp.so patch). |  |
+
+</details>
+
+<details>
+<summary>📦 Vita Mahjong&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.48.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Vita Mahjong Remove Ads](#vita-mahjong-remove-ads) | Removes banners and interstitials and makes rewarded ads pay out instantly without a video. Ad-gated buttons stay usable even when no ad is filled or the placement config is missing. |  |
+| [Vita Mahjong Restore Purchases](#vita-mahjong-restore-purchases) | On a fresh install, "Restore Purchases" reports the no-ads pack and the yearly VIP subscription as already owned, so those entitlements activate without a real Google Play purchase. |  |
+
+</details>
+
+<!-- PATCHES_END -->
+
+---
+
+## 💡 App Requests
+
+> [!NOTE]
+> **okish-morphe-patches** is a personal project I created for the apps and games I personally use.
+>
+> - **App requests are open**: If you'd like to suggest an app or a patch, feel free to open a feature request via [GitHub Issues](https://github.com/byehi98/okish-morphe-patches/issues/new/choose).
+> - **Discretionary pickup**: Whether a requested app will actually be picked up, investigated, or patched **totally depends on me** (based on whether I use the app, my personal interest, and available time).
+> - Please understand there are no promises, guarantees, or ETAs for requested apps.
+
+---
+
+## 🤝 Contributing
+
+Contributions and improvements are welcome! If you'd like to contribute, please follow these important guidelines:
+
+### ⚠️ Rules for Pull Requests
+
+1. **Work in the `dev` Branch (NOT `main`)**:
+   - All contributions and pull requests **MUST be made against the `dev` branch, not `main`**.
+   - PRs submitted against `main` will be closed or asked to be re-targeted to `dev`.
+   - Merging from `dev` to `main` and version tagging is automated via CI release workflows.
+
+2. **Strict Conventional Commits**:
+   - Commit messages **MUST strictly follow [Conventional Commits](https://www.conventionalcommits.org/) format**.
+   - The release pipeline uses Semantic Release to automatically calculate version bumps and generate changelogs based on commit prefixes:
+     - `feat:` — New patch or new capability (triggers a **minor** release)
+     - `fix:` — Bug fix in an existing patch (triggers a **patch** release)
+     - `bump:` — Updating supported app target versions (triggers a **patch** release)
+     - `docs:` — Documentation changes only (no release)
+
+### Contribution Workflow
+
+1. **Fork** the repository and clone your fork.
+2. Check out a new branch based on **`dev`**:
+   ```bash
+   git checkout -b feat/my-new-patch origin/dev
+   ```
+3. Implement your patch in `patches/src/main/kotlin/`.
+4. Ensure your patch builds cleanly:
+   ```bash
+   ./gradlew :patches:buildAndroid
+   ```
+5. Commit your changes using conventional commit format:
+   ```bash
+   git commit -m "feat(app-name): add ad-blocking patch"
+   ```
+6. Push to your fork and submit a Pull Request targeting the **`dev`** branch.
+
+---
+
+## 🛠️ Building from Source
+
+### Prerequisites
+
+- **Java Development Kit (JDK)**: Version 17 or 21 (Temurin / OpenJDK recommended)
+- **Git**
+- *(Optional)* **Nix** with Flakes (`flake.nix` and `.envrc` are provided for reproducible dev environments)
+
+### Build Commands
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/byehi98/okish-morphe-patches.git
+   cd okish-morphe-patches
+   ```
+
+2. **Build the patch package (`.mpp`):**
+   ```bash
+   ./gradlew :patches:buildAndroid
+   ```
+   The compiled bundle will be output to `patches/build/libs/patches-<version>.mpp`.
+
+3. **Generate the patches list JSON (`patches-list.json`):**
+   ```bash
+   ./gradlew generatePatchesList
+   ```
+
+For detailed Morphe architecture documentation, refer to the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+
+---
+
+## ⚠️ Disclaimer
+
+This project is provided for **educational purposes only**.
+
+---
+
+## 📜 License
+
+**okish-morphe-patches** is licensed under the [GNU General Public License v3.0](LICENSE).
